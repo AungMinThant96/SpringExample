@@ -1,0 +1,78 @@
+# =========================
+# Build
+# =========================
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# =========================
+# Maven Wrapper
+# =========================
+!.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+application.properties
+application.yml
+
+# =========================
+# Compiled files
+# =========================
+*.class
+*.jar
+*.war
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# =========================
+# Eclipse
+# =========================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# =========================
+# NetBeans
+# =========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temp files
+# =========================
+*.tmp
+*.swp
